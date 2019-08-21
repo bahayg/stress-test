@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>Complete the stress test below. Check all that apply for each question.</p>
+        <form id="stress-test">
+          <div class="form-group warning-signs">
+            <p>Select any warning signs you have experienced: </p>
+            <input type="checkbox" name="warning-signs" value="sleep-loss">Loss of Sleep<br>
+            <input type="checkbox" name="warning-signs" value="overwhelmed">Feeling Overwhelmed<br>
+            <input type="checkbox" name="warning-signs" value="appetite-loss">Loss of Apetite<br>
+            <input type="checkbox" name="warning-signs" value="headaches">Headaches<br>
+            <input type="checkbox" name="warning-signs" value="upset-stomach">Upset Stomach<br>
+            <input type="checkbox" name="warning-signs" value="fatigue">Fatigue<br>
+          </div>
+          <div class="form-group health-symptoms">
+            <p>Select any experienced any symptoms you have experienced: </p>
+            <input type="checkbox" name="health-symptoms" value="high-blood-pressure">High Blood Pressure<br>
+            <input type="checkbox" name="health-symptoms" value="anxiety">Anxiety<br>
+            <input type="checkbox" name="health-symptoms" value="high-heart-rate">High Heart Rate<br>
+            <input type="checkbox" name="health-symptoms" value="neck-pain">Neck Pain<br>
+            <input type="checkbox" name="health-symptoms" value="dizziness">Dizziness<br>
+            <input type="checkbox" name="health-symptoms" value="dry-mouth">Dry Mouth<br>
+          </div>
+          <div class="form-group coping-methods">
+            <p>Select any coping methods that interest you: </p>
+            <input type="checkbox" name="coping-methods" value="meditate">Meditate<br>
+            <input type="checkbox" name="coping-methods" value="manage-time">Manage your time<br>
+            <input type="checkbox" name="coping-methods" value="pet">Get a pet<br>
+            <input type="checkbox" name="coping-methods" value="exercise">Exercise<br>
+            <input type="checkbox" name="coping-methods" value="social-activities">More Social Activity<br>
+            <input type="checkbox" name="coping-methods" value="vacation">Vacation<br>
+          </div>
+          <button type="submit" name="button">Submit yor answers!</button>
+        </form>
+        <div id="results1">
+          <p>Based on your answers we suggest that you are very stressed. Please check the following links!</p>
+        </div>
+        <div id="results2">
+          <p>Based on your results you are doing ok, but you could relieve some stress checking the following resources!</p>
+        </div>
+        <div id="results3">
+          <p>You are doing a pretty good job, no stress at all!</p>
+        </div>
+    </div>
+  </body>
+</html>
